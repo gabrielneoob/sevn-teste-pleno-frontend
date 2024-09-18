@@ -39,4 +39,20 @@ async function renderRound() {
   }
 }
 
+prevBtn.addEventListener('click', () => {
+  if (currentRoundIndex > 0) {
+    currentRoundIndex--
+    renderRound()
+  }
+})
+
+nextBtn.addEventListener('click', () => {
+  if (data) {
+    if (currentRoundIndex < data.length - 1) {
+      currentRoundIndex++
+      renderRound()
+    }
+  }
+})
+
 renderRound()
