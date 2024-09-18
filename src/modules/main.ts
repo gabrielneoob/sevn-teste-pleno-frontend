@@ -2,7 +2,7 @@ import { fetchRodadas } from './useFetchRodadas'
 
 const data = await fetchRodadas()
 
-const currentRoundIndex = 0
+let currentRoundIndex = 0
 
 const currentRoundTitle = document.getElementById('current-round')!
 const roundsTable = document.getElementById('rounds-table')!
