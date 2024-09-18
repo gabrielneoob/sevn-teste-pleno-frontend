@@ -1,4 +1,4 @@
-# SEVN Sports - Componente de Rodadas de Jogos de Futebol
+# SEVN Sports - Rodadas de Jogos de Futebol
 
 Este é um projeto desenvolvido como parte do teste de front-end pleno da SEVN, que consiste na criação de uma página fictícia de esportes, com um componente que exibe as rodadas de jogos de futebol.
 
