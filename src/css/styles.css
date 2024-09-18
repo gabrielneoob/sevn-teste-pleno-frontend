@@ -12,10 +12,11 @@
 header {
   background-color: var(--main-color);
   padding: 1.5rem;
-  
-  p {
+}
+
+h1 {
     color: #fff;
     font-weight: 900;
     text-align: center;
-  }
 }
+
