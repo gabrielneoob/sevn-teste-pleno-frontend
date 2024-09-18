@@ -12,7 +12,6 @@ const nextBtn = document.getElementById('nextRound')! as HTMLButtonElement
 async function renderRound() {
   if (data) {
     const round = data[currentRoundIndex]
-    console.log({ round })
 
     currentRoundTitle.textContent = `RODADA ${round.round}`
     roundsTable.innerHTML = ''
