@@ -1,4 +1,6 @@
-export const fetchRodadas = async () => {
+import type { RoundProps } from '../types'
+
+export const fetchRodadas = async (): Promise<RoundProps[] | null> => {
   try {
     const response = await fetch('https://sevn-pleno-esportes.deno.dev/')
 

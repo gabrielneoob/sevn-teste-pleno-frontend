@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/icons/team_shield_a.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <title>Sevn</title>
+    <title>Sevn Esportes</title>
   </head>
   <body>
     <div id="app">
@@ -25,17 +25,21 @@
               <img src="/public/icons/arrow_left.svg" alt="prev-button">
             </button>
               <div id="round-data">
-                <h2>Rodadas de Jogos</h2>
-                <p id="current-round">RODADA 1</p>
+                <h2 id="round-title">Rodadas de Jogos</h2>
+                <p id="current-round"></p>
               </div>
             <button id="nextRound" class="nav-button">
               <img src="/public/icons/arrow_right.svg" alt="next-button" >
             </button>
           </div>
+
+          <div id="rounds-table">
+
+          </div>
         </div>
 
       </main>
     </div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/modules/main.ts"></script>
   </body>
 </html>
