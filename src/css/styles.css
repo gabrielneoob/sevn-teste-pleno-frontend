@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --main-color: #33B667;
+}
+
+header {
+  background-color: var(--main-color);
+  padding: 1.5rem;
+  
+  p {
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+  }
+}
